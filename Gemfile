@@ -66,3 +66,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "ruby_llm", "~> 1.13", git: "https://github.com/crmne/ruby_llm.git"
+
+gem "async", "~> 2.38"
